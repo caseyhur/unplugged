@@ -352,7 +352,7 @@ input[type=button] {
   margin: 20px 0;
 }
 
-img {
+/* img { 
   display: flex;
 }
 
@@ -360,7 +360,7 @@ figure {
   display: flex;
   justify-content: center;
   width: 100%;
-}
+} */
 
 /* ==========================================================================
    About Page
@@ -617,10 +617,17 @@ figure {
     width: 85%;
    }
 
+   .reviews article figure,
    .reviews article div {
     width: 49%;
-  
    }
+
+   .reviews h3 {
+    width: 75%;
+    margin: 0;
+   }
+
+
 
    /* Footer */
 
