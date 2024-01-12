@@ -240,20 +240,18 @@ footer .copyright {
 /* ------------ Mobile Styles - Homepage -------------*/
 
 header figure {
-  display: flex;
   width: 60%;
-  padding: 15px 0 10px 0;
-  margin: 0;
  }
 
 /* Hero Area */
 
 .hero-area {
-  display: flex;
-  justify-content: center;
   background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
   background-size: cover;
+  background-position: center;
   min-height: 500px;
+  display: flex;
+  justify-content: center;
 }
 
 .hero-area h1 {
@@ -266,9 +264,9 @@ header figure {
 /* Aside */
 
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
-  background-color: #527158;
 }
 
 /* Aside Input Form Styles */
@@ -302,10 +300,11 @@ input[type=button] {
 /* Features */
 
 .features {
-  display: flex;
-  justify-content: center;
   background: url(../img/unplugged-retreat-features.jpg) center no-repeat #333;
   background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
 }
 
 .features h2 {
@@ -320,7 +319,6 @@ input[type=button] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -337,9 +335,9 @@ input[type=button] {
 /* Reviews */
 
 .reviews {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
-  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -352,7 +350,7 @@ input[type=button] {
   margin: 20px 0;
 }
 
-/* img { 
+img { 
   display: flex;
 }
 
@@ -360,16 +358,16 @@ figure {
   display: flex;
   justify-content: center;
   width: 100%;
-} */
+}
 
 /* ==========================================================================
    About Page
    ========================================================================== */
 
   .mission {
+    background-color: #527158;
     display: flex;
     justify-content: center;
-    background-color: #527158;
   }
 
   .map figure {
@@ -394,7 +392,7 @@ figure {
     justify-content: center;
   }
 
-  .contact-content {
+  .contact-content p {
     margin: 0;
   }
 
